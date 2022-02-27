@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.1c018bc8.js",
+    "main.js": "/static/js/main.e0a1a8f0.js",
     "static/media/dog_pet.gif": "/static/media/dog_pet.790124feeb8011da65e7.gif",
     "static/media/cat-peek.gif": "/static/media/cat-peek.046b16660d99c75e33e2.gif",
     "static/media/6125-duck-hat.gif": "/static/media/6125-duck-hat.9b20d8614cf779ade7cf.gif",
@@ -31,7 +31,7 @@
     "static/media/2791-rat-youaregay.png": "/static/media/2791-rat-youaregay.57fc961205eef98feebb.png",
     "static/media/5291-cheemspat.gif": "/static/media/5291-cheemspat.7de42495f5d82a2d1527.gif",
     "static/media/2663-rat-youarepoor.png": "/static/media/2663-rat-youarepoor.9b5109d1fb6152e37eb3.png",
-    "static/media/png": "/static/media/793498896227631135.3144c4824a555797275e.png",
+    "static/media/png": "/static/media/893157327165849630.055168acb7f1cf9109e3.png",
     "static/media/CheemsPray.png": "/static/media/CheemsPray.f1de46fdfc0b99ae87d0.png",
     "static/media/doglick.png": "/static/media/doglick.ef5a978fa7322e3c9667.png",
     "static/media/KKomrat.png": "/static/media/KKomrat.9ff1bfc2a1e8be27edbf.png",
@@ -104,6 +104,7 @@
     "static/media/3x.png": "/static/media/3x.d07e663b3667a778a450.png",
     "static/media/bopbopcat.gif": "/static/media/bopbopcat.2fc32c8e368c02f2a3f6.gif",
     "static/media/CatPeek.png": "/static/media/CatPeek.39f53274ca83826b2759.png",
+    "static/media/goulougouloupouetpouet.png": "/static/media/goulougouloupouetpouet.21e4bcf1b389b8784f82.png",
     "static/media/PepeStare.png": "/static/media/PepeStare.cbca460847324cba7488.png",
     "static/media/PikaFlingue.png": "/static/media/PikaFlingue.5cd9a32e0f3322c822bc.png",
     "static/media/pepecoffee.png": "/static/media/pepecoffee.54bad953be3bd35d021d.png",
@@ -118,9 +119,9 @@
     "static/media/panda_frog.png": "/static/media/panda_frog.7e0b3b4add7dfae652d8.png",
     "static/media/PandaUh.png": "/static/media/PandaUh.92f374d02f7e4decb371.png",
     "index.html": "/index.html",
-    "main.1c018bc8.js.map": "/static/js/main.1c018bc8.js.map"
+    "main.e0a1a8f0.js.map": "/static/js/main.e0a1a8f0.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c018bc8.js"
+    "static/js/main.e0a1a8f0.js"
   ]
 }
