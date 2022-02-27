@@ -7,6 +7,8 @@ const ImageWrapper = ({ imgSrc, isMobile, canCopyImagesToClipboard }) => {
   const [mounted, setMounted] = React.useState(false);
   const toast = useToast();
 
+  // FIXME: could show copy button for gifs and always copy link
+
   /**
    * Only works when https is active
    * Also copying to clipboard is currently opt-in in firefox.. could add instructions in the error message
