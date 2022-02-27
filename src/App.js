@@ -48,6 +48,16 @@ const imageDirs = [
     ),
   },
   {
+    label: "Garfield",
+    images: importAll(
+      require.context(
+        "../public/assets/images/garfield",
+        false,
+        /\.(png|jpe?g|svg|gif)$/
+      )
+    ),
+  },
+  {
     label: "Grenouilles",
     path: "../public/assets/images/grenouilles",
     images: importAll(
