@@ -2,13 +2,13 @@ import {
   Box,
   Container,
   SimpleGrid,
-  Image,
   Tabs,
   TabList,
   TabPanels,
   Tab,
   TabPanel,
 } from "@chakra-ui/react";
+import ImageWrapper from "./components/ImageWrapper";
 
 function importAll(r) {
   return r.keys().map(r);
@@ -117,16 +117,7 @@ const App = () => {
                 spacing={10}
               >
                 {images.map((src, index) => (
-                  <Box key={index} width={64}>
-                    <Image
-                      src={src}
-                      alt=""
-                      boxSize="64px"
-                      htmlHeight="64px"
-                      // style={minWidth: ""}
-                      loading="lazy"
-                    />
-                  </Box>
+                  <ImageWrapper key={index} imgSrc={src} />
                 ))}
               </SimpleGrid>
             </TabPanel>
