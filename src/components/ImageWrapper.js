@@ -10,7 +10,8 @@ const ImageWrapper = ({ imgSrc }) => {
 
   /**
    * Only works when https is active
-   * Also copying to clipboard is currently opt-in in firefox ?..
+   * Also copying to clipboard is currently opt-in in firefox ?.. could add instructions in the error message
+   * On mobile will copy a link to storage ?
    */
   const handleCopyImg = () => {
     if (imgSrc) {
