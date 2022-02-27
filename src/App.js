@@ -16,6 +16,16 @@ function importAll(r) {
 
 const imageDirs = [
   {
+    label: "Coin-coin",
+    images: importAll(
+      require.context(
+        "../public/assets/images/canards",
+        false,
+        /\.(png|jpe?g|svg|gif)$/
+      )
+    ),
+  },
+  {
     label: "Chats",
     path: "../public/assets/images/chats",
     images: importAll(

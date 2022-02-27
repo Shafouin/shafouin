@@ -9,7 +9,8 @@ const ImageWrapper = ({ imgSrc }) => {
   const toast = useToast();
 
   /**
-   * Onlky works when https is active
+   * Only works when https is active
+   * Also copying to clipboard is currently opt-in in firefox ?..
    */
   const handleCopyImg = () => {
     if (imgSrc) {
@@ -19,7 +20,7 @@ const ImageWrapper = ({ imgSrc }) => {
           toast({
             title: "Image copiée.",
             description:
-              "Tu peux maintenant la coller par exemple dans un appli de chat, c'est dingue.",
+              "Tu peux maintenant la coller dans un appli de tchat par exemple, c'est dingue.",
             status: "success",
             duration: 9000,
             isClosable: true,
