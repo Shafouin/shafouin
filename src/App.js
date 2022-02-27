@@ -8,6 +8,10 @@ import {
   Tab,
   TabPanel,
 } from "@chakra-ui/react";
+import React from "react";
+import { isMobile } from "react-device-detect";
+import { canCopyImagesToClipboard } from "copy-image-clipboard";
+
 import ImageWrapper from "./components/ImageWrapper";
 
 function importAll(r) {
@@ -115,9 +119,11 @@ const imageDirs = [
   },
 ];
 
+const canCopyMemoized = canCopyImagesToClipboard();
+
 const App = () => {
   return (
-    <Container maxW="4xl" centerContent>
+    <Container maxW="4xl" centerContent style={{ maxHeight: "100vh" }}>
       <Tabs isLazy>
         <TabList>
           <SimpleGrid columns={{ base: 3, sm: 4, md: 6, lg: 8, xl: 8 }}>
@@ -137,7 +143,12 @@ const App = () => {
                 spacing={10}
               >
                 {images.map((src, index) => (
-                  <ImageWrapper key={index} imgSrc={src} />
+                  <ImageWrapper
+                    key={index}
+                    imgSrc={src}
+                    isMobile={isMobile}
+                    canCopyImagesToClipboard={canCopyMemoized}
+                  />
                 ))}
               </SimpleGrid>
             </TabPanel>
