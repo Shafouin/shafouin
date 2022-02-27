@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.js": "/static/js/main.95cc9e03.js",
+    "main.js": "/static/js/main.1c018bc8.js",
     "static/media/dog_pet.gif": "/static/media/dog_pet.790124feeb8011da65e7.gif",
     "static/media/cat-peek.gif": "/static/media/cat-peek.046b16660d99c75e33e2.gif",
+    "static/media/6125-duck-hat.gif": "/static/media/6125-duck-hat.9b20d8614cf779ade7cf.gif",
     "static/media/6428_king_cheems.png": "/static/media/6428_king_cheems.f30ecabd467f5f411e82.png",
     "static/media/77284-full.gif": "/static/media/77284-full.aa9edf7cf62a0071d06c.gif",
     "static/media/2325_catJAM.gif": "/static/media/2325_catJAM.a444ca7c611887e894b5.gif",
@@ -12,7 +13,9 @@
     "static/media/chatQuiBaille.gif": "/static/media/chatQuiBaille.ffdd6a61436f8ebf1794.gif",
     "static/media/PepeNotes1.gif": "/static/media/PepeNotes1.b5a3145b47e69b89de75.gif",
     "static/media/PepePartLoin.gif": "/static/media/PepePartLoin.0bb47cdacae52f1f0d95.gif",
+    "static/media/gif": "/static/media/792647381216657418.dc4b6a67f850085c6f5d.gif",
     "static/media/pepepeek.gif": "/static/media/pepepeek.f51e4341118fea83ed74.gif",
+    "static/media/4014-subaruduckdance.gif": "/static/media/4014-subaruduckdance.76e857b064066287423a.gif",
     "static/media/bidoof.gif": "/static/media/bidoof.291446ff55141b7dee23.gif",
     "static/media/PepeNotes2.gif": "/static/media/PepeNotes2.cf9ec24e79f6ce805700.gif",
     "static/media/pepenerd.gif": "/static/media/pepenerd.5ac66eeaa5ef62a0db76.gif",
@@ -51,7 +54,6 @@
     "static/media/5470_PointingRat.png": "/static/media/5470_PointingRat.60e3ae8d43511f0c3fa9.png",
     "static/media/Pathétique.png": "/static/media/Pathétique.6dbdb087116be7ae91e4.png",
     "static/media/hug_cheemz.png": "/static/media/hug_cheemz.ca50027327de40063b8f.png",
-    "static/media/gif": "/static/media/792647381216657418.dc4b6a67f850085c6f5d.gif",
     "static/media/3095_Doggo_wink.png": "/static/media/3095_Doggo_wink.8fd72a6817b20b7da1d3.png",
     "static/media/PepeRubHands.png": "/static/media/PepeRubHands.9e67d39a160033f2b6ee.png",
     "static/media/2282-cheems-goodnight.png": "/static/media/2282-cheems-goodnight.0d1c4990de283e7e20f6.png",
@@ -63,11 +65,14 @@
     "static/media/Tristesse.png": "/static/media/Tristesse.d5e64d0e2e9b953645d2.png",
     "static/media/cheemsBlush.png": "/static/media/cheemsBlush.2355076b0083d1be135e.png",
     "static/media/ChienZoom.png": "/static/media/ChienZoom.19d5dade58d4637411ca.png",
+    "static/media/5010_isforprotecc.png": "/static/media/5010_isforprotecc.060c11f38aa20604e423.png",
     "static/media/frog_nervous.png": "/static/media/frog_nervous.5acffe0d648ae3a9c0cc.png",
     "static/media/MadStarecat.png": "/static/media/MadStarecat.c71a4bd7821911f4b939.png",
     "static/media/cheemspopcorn.png": "/static/media/cheemspopcorn.ff58637a99406d663cbd.png",
+    "static/media/3638-cute-duck.png": "/static/media/3638-cute-duck.18f01d21ac778017e344.png",
     "static/media/1030-blushy-cat.png": "/static/media/1030-blushy-cat.e9881670dc1a1000c611.png",
     "static/media/3219-peeposanta.png": "/static/media/3219-peeposanta.fd762aaff1b8be11da01.png",
+    "static/media/CoinCoinChope.png": "/static/media/CoinCoinChope.4707d28b2f04c3dcbd35.png",
     "static/media/ChatCouette.png": "/static/media/ChatCouette.a9e007a7108dd352ce78.png",
     "static/media/monkaGun.png": "/static/media/monkaGun.71ec98b49dc3563f201f.png",
     "static/media/CheeseRat.png": "/static/media/CheeseRat.4b3e5ac548ff88701c93.png",
@@ -79,6 +84,8 @@
     "static/media/DuckPanda.png": "/static/media/DuckPanda.d71bcc74715b0c4d8311.png",
     "static/media/waltercute.png": "/static/media/waltercute.81532d7877d1dda99a60.png",
     "static/media/3417_smileysmile.png": "/static/media/3417_smileysmile.828bb161118fc5e62935.png",
+    "static/media/3920_isforbirthday.png": "/static/media/3920_isforbirthday.79b191c8c3623f0f05b6.png",
+    "static/media/LesProblèmes.png": "/static/media/LesProblèmes.4e45109e793f719bf04a.png",
     "static/media/MimiquiFlingue.png": "/static/media/MimiquiFlingue.e8118e3804f53709bdb3.png",
     "static/media/6648_basementcat.png": "/static/media/6648_basementcat.c07b7592f32d141279e9.png",
     "static/media/SadCat.png": "/static/media/SadCat.6e46eefc15a15e3a9a0f.png",
@@ -103,6 +110,7 @@
     "static/media/pepeSadge.png": "/static/media/pepeSadge.c3a3fa8a012a6368709d.png",
     "static/media/fronk.png": "/static/media/fronk.2dcec7f3285569a76965.png",
     "static/media/pepeShy.gif": "/static/media/pepeShy.e8a145f97ec226e96037.gif",
+    "static/media/peeek.png": "/static/media/peeek.2d9e9ac85842c7aa439f.png",
     "static/media/froglove.png": "/static/media/froglove.a4ae161a76b8498a810c.png",
     "static/media/frogpensive.png": "/static/media/frogpensive.c520d16d7fe73017c5ec.png",
     "static/media/frogChamp.png": "/static/media/frogChamp.5e9df8223d9641abb57b.png",
@@ -110,9 +118,9 @@
     "static/media/panda_frog.png": "/static/media/panda_frog.7e0b3b4add7dfae652d8.png",
     "static/media/PandaUh.png": "/static/media/PandaUh.92f374d02f7e4decb371.png",
     "index.html": "/index.html",
-    "main.95cc9e03.js.map": "/static/js/main.95cc9e03.js.map"
+    "main.1c018bc8.js.map": "/static/js/main.1c018bc8.js.map"
   },
   "entrypoints": [
-    "static/js/main.95cc9e03.js"
+    "static/js/main.1c018bc8.js"
   ]
 }
