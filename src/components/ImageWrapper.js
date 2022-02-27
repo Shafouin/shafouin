@@ -1,19 +1,43 @@
 import React from "react";
-import { Box, IconButton, Image, Tooltip } from "@chakra-ui/react";
+import { Box, IconButton, Image, Tooltip, useToast } from "@chakra-ui/react";
 import { CopyIcon, DownloadIcon } from "@chakra-ui/icons";
 import { copyImageToClipboard } from "copy-image-clipboard";
 
 const ImageWrapper = ({ imgSrc }) => {
   // const mounted = React.useRef(false);
   const [mounted, setMounted] = React.useState(false);
+  const toast = useToast();
 
   /**
    * Onlky works when https is active
    */
   const handleCopyImg = () => {
-    copyImageToClipboard(imgSrc).catch((e) => {
-      console.error("Error: ", e.message);
-    });
+    if (imgSrc) {
+      copyImageToClipboard(imgSrc)
+        .then(() => {
+          toast.closeAll();
+          toast({
+            title: "Image copiée.",
+            description:
+              "Tu peux maintenant la coller par exemple dans un appli de chat, c'est dingue.",
+            status: "success",
+            duration: 9000,
+            isClosable: true,
+          });
+        })
+        .catch((e) => {
+          toast.closeAll();
+          toast({
+            title: "OOPSIE WOOPSIE!!",
+            description:
+              "Uwu We make a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!.",
+            status: "error",
+            duration: 9000,
+            isClosable: true,
+          });
+          console.error("Error: ", e.message);
+        });
+    }
   };
 
   /**
