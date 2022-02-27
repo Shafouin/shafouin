@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.e0a1a8f0.js",
+    "main.js": "/static/js/main.5431238f.js",
     "static/media/dog_pet.gif": "/static/media/dog_pet.790124feeb8011da65e7.gif",
     "static/media/cat-peek.gif": "/static/media/cat-peek.046b16660d99c75e33e2.gif",
     "static/media/6125-duck-hat.gif": "/static/media/6125-duck-hat.9b20d8614cf779ade7cf.gif",
@@ -19,7 +19,6 @@
     "static/media/bidoof.gif": "/static/media/bidoof.291446ff55141b7dee23.gif",
     "static/media/PepeNotes2.gif": "/static/media/PepeNotes2.cf9ec24e79f6ce805700.gif",
     "static/media/pepenerd.gif": "/static/media/pepenerd.5ac66eeaa5ef62a0db76.gif",
-    "static/media/142566-full.png": "/static/media/142566-full.83f286362eae7d5c0efb.png",
     "static/media/potiblagueurl.png": "/static/media/potiblagueurl.1534a2821ef47e0a3c00.png",
     "static/media/7786-ratspin.gif": "/static/media/7786-ratspin.f96fc78aed0e5bce9c85.gif",
     "static/media/7076_Kittystareeeee.png": "/static/media/7076_Kittystareeeee.f7be9e7edb9cb32779be.png",
@@ -119,9 +118,9 @@
     "static/media/panda_frog.png": "/static/media/panda_frog.7e0b3b4add7dfae652d8.png",
     "static/media/PandaUh.png": "/static/media/PandaUh.92f374d02f7e4decb371.png",
     "index.html": "/index.html",
-    "main.e0a1a8f0.js.map": "/static/js/main.e0a1a8f0.js.map"
+    "main.5431238f.js.map": "/static/js/main.5431238f.js.map"
   },
   "entrypoints": [
-    "static/js/main.e0a1a8f0.js"
+    "static/js/main.5431238f.js"
   ]
 }
